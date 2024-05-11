@@ -1,0 +1,107 @@
+/* App.css */
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #fff;
+  padding: 0;
+  background-color: #242424;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* ContactForm styles */
+.contact-form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 320px;
+}
+
+.contact-form input,
+.contact-form button {
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* SearchBox styles */
+.search-box {
+  margin: 10px;
+  margin-bottom: 20px;
+  width: 320px;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* ContactList styles */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+}
+
+.contact-list li {
+  color: black;
+  background-color: #bab9b9;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: calc((100% - 30px) / 4);
+  border: solid 1px black;
+  transition: 0.3s;
+}
+
+.contact-list li:hover {
+  background-color: #fff;
+}
+
+.contact-list li button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-list li button:hover {
+  background-color: #bd2130;
+}
+
+.contact-list-div {
+  display: flex;
+  flex-direction: column;
+}
